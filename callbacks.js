@@ -1,4 +1,4 @@
-const userLeft = false
+const userLeft = true
 const userWatchingCatMeme = false
 
 function watchTutorialCallback(callback, errorCallback) {
@@ -19,6 +19,6 @@ function watchTutorialCallback(callback, errorCallback) {
 
 watchTutorialCallback((message) => {
     console.log('Success: ' + message)
-}), (error) => {
+}, (error) => {
     console.log(error.name +  ' ' + 'error.message')
-}
+})
