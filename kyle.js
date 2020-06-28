@@ -18,6 +18,6 @@ p.then((message) => {
 
 console.log(p)
 
-let w = new Promise((resolve, rreject) => {
+let w = new Promise((resolve, reject) => {
 
 })
