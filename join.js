@@ -12,3 +12,5 @@ console.log(arr2.join(' '))
 str = "the quick brown fox jumped"
 
 console.log(str.split(' '))
+
+// new 
